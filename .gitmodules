@@ -1,0 +1,3 @@
+[submodule "threestudio"]
+	path = third_party/threestudio
+	url = git@github.com:threestudio-project/threestudio.git
