@@ -1,0 +1,34 @@
+# You can use the variables $GPU_ID and $PROMPT in the scripts
+GradeADreamer:
+  - env: GradeADreamer
+    scripts:
+      - ./third_party/GradeADreamer/run.sh --gpu $GPU_ID --prompt $PROMPT
+      - python extractors/mesh_extractor.py --prompt $PROMPT --module GradeADreamer --model GradeADreamer
+ProlificDreamer:
+  - env: th_studio
+    scripts:
+      - cd third_party/threestudio
+      - python ../../trainers/threestudio.py --prompt $PROMPT --gpu $GPU_ID --model ProlificDreamer
+      - cd -
+      - python extractors/mesh_extractor.py --prompt $PROMPT --module threestudio --model prolificdreamer
+Magic3D:
+  - env: th_studio
+    scripts:
+      - cd third_party/threestudio
+      - python ../../trainers/threestudio.py --prompt $PROMPT --gpu $GPU_ID --model Magic3D
+      - cd -
+      - python extractors/mesh_extractor.py --prompt $PROMPT --module threestudio --model magic3d
+Fantasia3D:
+  - env: th_studio
+    scripts:
+      - cd third_party/threestudio
+      - python ../../trainers/threestudio.py --prompt $PROMPT --gpu $GPU_ID --model Fantasia3D
+      - cd -
+      - python extractors/mesh_extractor.py --prompt $PROMPT --module threestudio --model fantasia3d
+DreamFusion:
+  - env: th_studio
+    scripts:
+      - cd third_party/threestudio
+      - python ../../trainers/threestudio.py --prompt $PROMPT --gpu $GPU_ID --model DreamFusion
+      - cd -
+      - python extractors/mesh_extractor.py --prompt $PROMPT --module threestudio --model dreamfusion

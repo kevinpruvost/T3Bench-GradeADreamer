@@ -1,21 +1,26 @@
 #!/bin/bash
 
-# Function to get GPU IDs with 0% usage
+# Function to get GPU IDs with 0% usage and VRAM usage under 5%
 get_idle_gpus() {
     # Initialize an empty array
     local idle_gpus=()
 
-    # Get the list of GPU indices and their usage, sorted by least used first
+    # Get the list of GPU indices, their usage, and memory usage
     local gpu_info
-    gpu_info=$(nvidia-smi --query-gpu=index,utilization.gpu --format=csv,noheader,nounits | sort -t, -k2 -n)
+    gpu_info=$(nvidia-smi --query-gpu=index,utilization.gpu,memory.used,memory.total --format=csv,noheader,nounits)
 
     # Loop through the results
-    while IFS=, read -r gpu_id usage; do
-        # Trim any leading/trailing whitespace from usage
+    while IFS=, read -r gpu_id usage mem_used mem_total; do
+        # Trim any leading/trailing whitespace
         usage=$(echo "$usage" | xargs)
+        mem_used=$(echo "$mem_used" | xargs)
+        mem_total=$(echo "$mem_total" | xargs)
 
-        # Check if usage is 0%
-        if [ "$usage" -eq 0 ]; then
+        # Calculate the VRAM usage percentage
+        mem_usage_percent=$(awk "BEGIN {print ($mem_used/$mem_total)*100}")
+
+        # Check if GPU usage is 0% and VRAM usage is under 5%
+        if [ "$usage" -eq 0 ] && (( $(echo "$mem_usage_percent < 5" | bc -l) )); then
             # Add GPU ID to the idle_gpus array
             idle_gpus+=("$gpu_id")
         fi
@@ -54,8 +59,7 @@ with open("$config_file", 'r') as file:
 for model_name, model_data in config.items():
     env = model_data[0]['env']
     scripts = model_data[0]['scripts']
-    for script in scripts:
-        print(f"{model_name},{env},{script}")
+    print(f"{model_name},{env},{scripts}")
 END
 )
 
@@ -66,7 +70,7 @@ model_i=0
 while IFS=, read -r model_name env script; do
     echo "Model [$model_i]: $model_name"
     models+=("$model_name,$env,$script")
-    model_i=$model_i+1
+    model_i=$((model_i + 1))
 done <<< "$python_output"
 
 # Ask user to choose a model
@@ -99,10 +103,6 @@ if [[ ! " ${gpu_ids[@]} " =~ " ${chosen_gpu} " ]]; then
     return 1
 fi
 
-# Replace placeholders in the script
-echo "$script"
-script=$(echo "$script" | sed "s/\$GPU_ID/$chosen_gpu/g")
-
 # Function to handle cleanup on exit
 cleanup() {
     echo "Cleaning up..."
@@ -122,18 +122,37 @@ cleanup_handler &
 echo -ne "\nActivating environment '$env'...\n\n"
 eval "$(conda shell.bash hook)"
 eval conda activate "$env"
+# store cwd
+cwd=$(pwd)
 while IFS= read -r prompt || [[ -n $prompt ]]; do
     echo "/!\ Prompt: [$prompt]"
 
-    # Replace placeholders with the current prompt
-    script_to_run=$(echo "$script" | sed "s/\$PROMPT/\"$prompt\"/g")
+    # checks if model has already been generated
+    echo "Checking if mesh [./outputs_mesh_t3/${model_name}/${prompt// /_}/mesh.obj] already exists..."
+    if [ -f "./outputs_mesh_t3/${model_name}/${prompt// /_}/mesh.obj" ]; then
+        echo "Mesh already generated for prompt [$prompt]. Skipping..."
+        continue
+    fi
 
-    # Create a log file name based on the model name, GPU ID, and prompt
-    log_file="logs/${model_name}/${prompt// /_}.log"
-    mkdir -p "logs/${model_name}"
-    echo "Running: $script_to_run on GPU $chosen_gpu with environment [$env]..."
-    echo "[LOG] Logging output to $log_file..."
-    eval "$script_to_run" > "$log_file" 2>&1
+    # cut scripts to run ([script1, script2, script3] contained in $script)
+    # first remove []
+    script=$(echo "$script" | cut -d '[' -f2- | cut -d ']' -f1)
+    # then remove ' and "
+    script=$(echo "$script" | sed "s/'//g")
+    # then split by ',' into an array for for loop
+    IFS=',' read -r -a scripts_to_run <<< "$(echo $script | xargs)"
+    for script_to_run in "${scripts_to_run[@]}"; do
+        # Replace placeholders with the current prompt
+        script_to_run=$(echo "$script_to_run" | sed "s/\$PROMPT/\"$prompt\"/g")
+        script_to_run=$(echo "$script_to_run" | sed "s/\$GPU_ID/$chosen_gpu/g")
+
+        # Create a log file name based on the model name, GPU ID, and prompt
+        log_file="logs/${model_name}/${prompt// /_}.log"
+        mkdir -p "logs/${model_name}"
+        echo "Running: [$script_to_run] on GPU $chosen_gpu with environment [$env]..."
+        echo "[LOG] Logging output to $log_file..."
+        eval "$script_to_run" >> "$cwd/$log_file" 2>&1
+    done
     echo -ne "Mesh generated!\n\n"
 done < prompts_to_evaluate.txt
 eval conda deactivate
