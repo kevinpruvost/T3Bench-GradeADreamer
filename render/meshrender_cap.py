@@ -72,4 +72,5 @@ for idx, v in enumerate(icosphere.vertices):
 
     # convert color to PIL image
     color = Image.fromarray(color.astype(np.uint8))
+    os.makedirs(args.name, exist_ok=True)
     imageio.imwrite(f'{args.name}/{idx:03d}.png', color)
