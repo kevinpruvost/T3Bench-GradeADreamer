@@ -7,6 +7,3 @@
 [submodule "PlacidDreamer"]
 	path = third_party/PlacidDreamer
 	url = git@github.com:HansenHuang0823/PlacidDreamer.git
-[submodule "X-Dreamer"]
-	path = third_party/X-Dreamer
-	url = https://github.com/xmu-xiaoma666/X-Dreamer
