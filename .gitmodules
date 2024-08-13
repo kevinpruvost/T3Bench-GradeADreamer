@@ -4,9 +4,6 @@
 [submodule "GradeADreamer"]
 	path = third_party/GradeADreamer
 	url = git@github.com:trapoom555/GradeADreamer.git
-[submodule "GSGen"]
-	path = third_party/gsgen
-	url = git@github.com:gsgen3d/gsgen.git
 [submodule "PlacidDreamer"]
 	path = third_party/PlacidDreamer
 	url = git@github.com:HansenHuang0823/PlacidDreamer.git
