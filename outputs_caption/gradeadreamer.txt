@@ -1,15 +1,15 @@
-An astronaut riding a horse:A man riding a horse.
-A blue jay standing on a large basket of rainbow macarons:A ring with colorful beads on.
-A bulldog wearing a black pirate hat:Various animals and objects on black.
-A baby bunny sitting on top of a stack of pancakes:A bunny sitting on a cake.
-A car made out of sushi:Green and orange sushi roll
-A plate piled high with chocolate chip cookies:A chocolate chip cookie.
-A furry corgi:A small white and yellow teddy bear
-A horse walking:A horse running in the air
-A model of a house in Tudor style:Green food or plant object.
-An ice cream sundae:A colorful treat with flowers on.
-A Panda:A small teddy bear on black.
-A pineapple:A pineapple
-A highly detailed sand castle:A small irregular curved white object
-A ripe strawberry:A red strawberry
-A plate of fried chicken and waffles with maple syrup on them:A small ball of food item
+An astronaut riding a horse:A horse on a grass field.
+A blue jay standing on a large basket of rainbow macarons:A bird on eggs, colorful bubbles, colorful balloons, colorful beads, gold
+A bulldog wearing a black pirate hat:A dog, a ring, a teddy bear, a cat, a t
+A baby bunny sitting on top of a stack of pancakes:A bunny on a cake.
+A car made out of sushi:A green and orange object on a black background.
+A plate piled high with chocolate chip cookies:A chocolate chip cookie on a black background.
+A furry corgi:A dog on a field.
+A horse walking:A horse on a grass field.
+A model of a house in Tudor style:A house, food, pizza, fish, leaf, cheese, cactus
+An ice cream sundae:A cupcake with flowers on top of a black background.
+A Panda:A panda bear, chocolate, mouse, bear, teddy bear, food
+A pineapple:A pineapple on a black background.
+A highly detailed sand castle:A sand castle on a sea shell.
+A ripe strawberry:A strawberry on a black background.
+A plate of fried chicken and waffles with maple syrup on them:A food item on a black background.

@@ -1,15 +1,15 @@
-An astronaut riding a horse:Spacecraft flies past Jupiter's moon Titan
-A blue jay standing on a large basket of rainbow macarons:Colorful objects on a black background
-A bulldog wearing a black pirate hat:A white animal in the dark.
-A baby bunny sitting on top of a stack of pancakes:An animal on a pile of food
-A car made out of sushi:A colorful sushi roll on black.
-A plate piled high with chocolate chip cookies:A pile of blue and brown cookies
-A furry corgi:A green animal sitting alone.
-A horse walking:A horse is running.
-A model of a house in Tudor style:A small house with a tree.
-An ice cream sundae:An ice cream cone.
-A Panda:A green triangle in darkness.
-A pineapple:A pineapple on black background
-A highly detailed sand castle:Yellow and blue castle on top.
-A ripe strawberry:A strawberry on black background
-A plate of fried chicken and waffles with maple syrup on them:A waffle on a black background
+An astronaut riding a horse:A horse in the dark.
+A blue jay standing on a large basket of rainbow macarons:A bird in a basket of candy on a black background.
+A bulldog wearing a black pirate hat:A horse on a grass field.
+A baby bunny sitting on top of a stack of pancakes:A rabbit on a pile of pancakes.
+A car made out of sushi:A sushi roll on a black background.
+A plate piled high with chocolate chip cookies:A pile of blue and white objects.
+A furry corgi:A cat and dog on a black background.
+A horse walking:A horse on a black background
+A model of a house in Tudor style:A house on a black background.
+An ice cream sundae:A cone on a black bkgnd.
+A Panda:A frog in the dark, a cat in the dark, a green light
+A pineapple:A pineapple on a black background.
+A highly detailed sand castle:A castle on top of a mountain.
+A ripe strawberry:A strawberry on a black background.
+A plate of fried chicken and waffles with maple syrup on them:A waffle on a black background.

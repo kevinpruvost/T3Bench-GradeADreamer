@@ -13,3 +13,18 @@
 2		A highly detailed sand castle
 4		A ripe strawberry
 1		A plate of fried chicken and waffles with maple syrup on them
+1		An astronaut riding a horse
+3		A blue jay standing on a large basket of rainbow macarons
+1		A bulldog wearing a black pirate hat
+1		A baby bunny sitting on top of a stack of pancakes
+3		A car made out of sushi
+1		A plate piled high with chocolate chip cookies
+3		A furry corgi
+3		A horse walking
+3		A model of a house in Tudor style
+3		An ice cream sundae
+3		A Panda
+5		A pineapple
+3		A highly detailed sand castle
+3		A ripe strawberry
+1		A plate of fried chicken and waffles with maple syrup on them
