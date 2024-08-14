@@ -1,15 +1,15 @@
-An astronaut riding a horse:A horse laying down alone.
-A blue jay standing on a large basket of rainbow macarons:A blue bird on colorful candy.
-A bulldog wearing a black pirate hat:A black and white bulldog laying.
-A baby bunny sitting on top of a stack of pancakes:A bunny on top of pancakes
+An astronaut riding a horse:A man riding a horse.
+A blue jay standing on a large basket of rainbow macarons:A ring with colorful beads on.
+A bulldog wearing a black pirate hat:Various animals and objects on black.
+A baby bunny sitting on top of a stack of pancakes:A bunny sitting on a cake.
 A car made out of sushi:Green and orange sushi roll
-A plate piled high with chocolate chip cookies:Chocolate chip cookies
-A furry corgi:A white and yellow dog figure.
-A horse walking:A horse lying down alone
-A model of a house in Tudor style:A small house with green and red.
-An ice cream sundae:A pink and yellow ice cream cone
-A Panda:A stuffed panda bear.
+A plate piled high with chocolate chip cookies:A chocolate chip cookie.
+A furry corgi:A small white and yellow teddy bear
+A horse walking:A horse running in the air
+A model of a house in Tudor style:Green food or plant object.
+An ice cream sundae:A colorful treat with flowers on.
+A Panda:A small teddy bear on black.
 A pineapple:A pineapple
-A highly detailed sand castle:A conch shell on black.
+A highly detailed sand castle:A small irregular curved white object
 A ripe strawberry:A red strawberry
-A plate of fried chicken and waffles with maple syrup on them:A piece of fried chicken food
+A plate of fried chicken and waffles with maple syrup on them:A small ball of food item

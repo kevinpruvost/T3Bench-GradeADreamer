@@ -1,195 +1,195 @@
 An astronaut riding a horse:
-view1: a dark room with a red light in the middle
-view2: a dark background with a red light in the middle
-view3: a person is standing in the dark with a red light
-view4: a black background with a red light in the middle
-view5: a black background with a red light in the middle
+view1: a black background with a red light in the middle
+view2: a black background with a red light in the middle
+view3: a black background with a red light in the middle
+view4: a dark room with a red light in the background
+view5: an image of a dark sky with a star in the middle
 view6: a black background with a red light in the middle
-view7: a black and white image of a star in the sky
-view8: a black background with a light in the sky
-view9: a black and white image of a plane flying in the sky
-view10: a black and white image of a bird flying in the dark
-view11: a black background with a red light in the middle
-view12: a black and white image of a person in the dark
+view7: a black and white image of an airplane flying in the sky
+view8: a black background with a red light in the middle
+view9: a black background with an airplane flying in the sky
+view10: a red light in the dark
+view11: a black and white image of a person in the dark
+view12: a black background with a red light in the middle
 A blue jay standing on a large basket of rainbow macarons:
 view1: an image of a colorful ball on a black background
-view2: a bird sitting on top of a pile of candy
-view3: a blue bird sitting on top of a nest
-view4: an image of a bird in a nest with colorful eggs
-view5: a blue bird sitting on top of a nest
+view2: a colorful bird perched on top of a cake
+view3: a bird is sitting on top of a black background
+view4: an image of a bird in a basket
+view5: a black background with a colorful cake on it
 view6: a blue bird sitting on top of a pile of candy
-view7: an image of a colorful apple on a black background
-view8: an image of a colorful ball on a black background
-view9: a colorful image of a bird on a black background
-view10: a blue bird sitting on top of a basket
+view7: an image of a colorful flower on a black background
+view8: a black and white image of a heart
+view9: a black background with a bunch of colorful crystals
+view10: a black screen with a colorful object in the middle
 view11: a blue bird sitting on top of a pile of candy
-view12: an image of a bird sitting on top of a nest
+view12: a blue bird sitting on top of a cake
 A bulldog wearing a black pirate hat:
-view1: a black background with red, blue and yellow paint
-view2: a black background with a red, yellow and orange dog
-view3: a black background with a dog on it
-view4: a black and white image of a black cat
-view5: a black background with red, orange and yellow paint
-view6: a black and white image of a skull on a black background
-view7: a black and white image of a cat in the dark
-view8: a black and white image of a flower
-view9: a black and white image of a flame on a black background
-view10: a black background with a picture of a dog
-view11: an image of a teddy bear on a black background
-view12: a dog wearing a hat on a black background
+view1: a black background with a red, orange and yellow flower
+view2: a black background with a painting of a dog
+view3: an image of a frog in the dark
+view4: a black background with a red, yellow and orange flower
+view5: a black background with a red and black cat
+view6: a black background with an image of a skull
+view7: a black background with colorful paint splashes
+view8: a black background with a bunch of colorful flowers
+view9: a black and white image of a flower
+view10: a black background with a painting of a cat
+view11: a black background with a cartoon character on it
+view12: a black background with a dog in a costume
 A baby bunny sitting on top of a stack of pancakes:
-view1: a black background with a red and white cell
-view2: a cartoon image of a bunny with ice cream on top of it
-view3: a bunny is sitting on top of a cake
-view4: an image of a cake with a bunny on top of it
-view5: an image of a bunny cake on a black background
-view6: an image of a cake on a black background
-view7: a red and white christmas tree on a black background
-view8: a black background with a red and orange ball
-view9: a red and white christmas tree in a black background
+view1: a close up of a red flower on a black background
+view2: a black and white image of a cake with a candle on it
+view3: a bunny sitting on top of a cake on a black background
+view4: an image of a cupcake in a black background
+view5: a small bunny sitting on a black background
+view6: an image of a bunny on top of a stack of pancakes
+view7: a black and white image of a person in the air
+view8: a red flower on a black background
+view9: an image of a red flower on a black background
 view10: a red and white ice cream cone on a black background
-view11: a rabbit on top of a christmas tree
-view12: a stack of pancakes with a bunny on top
+view11: a bunny sitting on top of a pile of pancakes
+view12: a black background with a red and white bunny on it
 A car made out of sushi:
-view1: a black and green image of a piece of plastic
-view2: an image of a sushi roll on a black background
-view3: a sushi roll on a black background
-view4: an image of a sushi roll on a black background
-view5: a black and white picture of a sushi roll on a black background
-view6: an image of a sushi roll on a black background
-view7: a black background with a red and green object
-view8: a green and black image of a fish
-view9: a black background with a green and orange object
-view10: a piece of sushi on a black background
-view11: an image of a sushi roll on a black background
-view12: an image of a sushi roll on a black background
+view1: an image of a green leaf on a black background
+view2: a black background with a green, orange, and red sandwich
+view3: an image of a sandwich in the dark
+view4: a picture of a sushi roll on a black background
+view5: a red and green car on a black background
+view6: a black background with a green, red and yellow mouth
+view7: a green and orange piece of candy on a black background
+view8: an image of a green and red lizard on a black background
+view9: an image of a green, black and white flower on a black background
+view10: an image of a sushi roll on a black background
+view11: a black background with a picture of a car
+view12: a red and green toy car on a black background
 A plate piled high with chocolate chip cookies:
-view1: an image of a black background with a pink blob on it
-view2: a black background with a bunch of orange spots
-view3: a black background with a picture of a cake
-view4: a pile of cookies on a black background
-view5: a pile of blueberry cookies on a black background
-view6: a pile of pieces of chocolate on a black background
-view7: a black and white image of a piece of ice
-view8: a black and white image of a fungus on a black background
-view9: a black background with an image of a flower
-view10: blueberry cookies on a black background
-view11: a black background with an image of a rock
-view12: a pile of chocolate chip cookies on a black background
+view1: a black background with a pile of rocks on it
+view2: a gold ring on a black background
+view3: a black background with a bunch of mushrooms on it
+view4: a bunch of cookies on a black background
+view5: a pile of chocolate chip cookies on a black background
+view6: a piece of chocolate is on a black background
+view7: a black background with a lot of flowers on it
+view8: a close up of a flower on a black background
+view9: an image of a mushroom on a black background
+view10: a black background with a bunch of cookies on it
+view11: a black background with a pile of rocks on it
+view12: a pile of cookies on a black background
 A furry corgi:
-view1: a white unicorn is sitting on a black background
-view2: a white and orange dog sitting on a black background
+view1: a white unicorn on a black background
+view2: a corgi dog sitting on a black background
 view3: a corgi dog is sitting on a black background
 view4: a corgi dog is standing on a black background
-view5: a corgi dog is sitting on a black background
-view6: a corgi dog sitting on a black background
-view7: a dog is sitting on a black background
-view8: an image of a white sheep on a black background
-view9: a white and orange cat on a black background
-view10: a corgi dog is sitting on a black background
+view5: a corgi dog on a black background
+view6: a corgi dog is sitting on a black background
+view7: a corgi dog is sitting on a black background
+view8: a black background with a white cat on it
+view9: a cat laying down on a black background
+view10: a corgi dog on a black background
 view11: a corgi dog sitting on a black background
 view12: an orange and white dog sitting on a black background
 A horse walking:
-view1: an image of a crab in the dark
-view2: a horse is standing in the dark
-view3: a horse in the dark
-view4: an image of a fish in the dark
-view5: an image of a horse in the dark
-view6: a horse is standing on a black background
-view7: a man is standing in front of a black background
-view8: an image of a horse in the dark
+view1: a tiger is standing in the dark
+view2: a horse is running in the dark
+view3: a horse is standing in the dark
+view4: a horse in the dark with an orange glow
+view5: an image of a person standing in the dark
+view6: a horse is standing in the dark on a black background
+view7: a dark image of a hand with blood on it
+view8: a cat is standing in the dark
 view9: an image of a horse in the dark
 view10: a horse is running in the dark on a black background
-view11: a horse is standing in a dark room
-view12: an image of a horse in the dark
+view11: an image of a horse in the dark
+view12: a horse is standing in the dark
 A model of a house in Tudor style:
-view1: an image of a green and yellow object
-view2: an image of a small house in the middle of a field
-view3: a 3d model of a castle on a black background
-view4: a small castle on top of a green field
-view5: an image of a small castle on a black background
-view6: an image of a house in the middle of a field
-view7: an image of a green leaf on a black background
-view8: an image of a green and yellow leaf on a black background
-view9: a green and yellow flower on a black background
-view10: an image of a small castle on a green field
-view11: a pixelated image of a castle in the middle of a field
-view12: a small model of a house on a black background
+view1: an image of a green leaf on a black background
+view2: an image of a house in the middle of a field
+view3: an image of a castle in the dark
+view4: an image of a castle in the middle of a green field
+view5: an image of a castle in the middle of a green field
+view6: an image of a house on a black background
+view7: a black and green image of a small island
+view8: a green and yellow flower on a black background
+view9: an image of a green boat on a black background
+view10: an image of a small house in the middle of a green field
+view11: an image of a castle on a black background
+view12: a small house in the middle of a grassy field
 An ice cream sundae:
-view1: a piece of popcorn on a black background
-view2: ice cream cone png png png png png png png png p
+view1: a glass of orange juice on a black background
+view2: an ice cream cone on a black background
 view3: an ice cream cone on a black background
 view4: an ice cream cone on a black background
 view5: an ice cream cone on a black background
 view6: an ice cream cone on a black background
 view7: an ice cream cone on a black background
-view8: a hot dog on a black background
+view8: a cup of orange juice on a black background
 view9: an ice cream cone on a black background
 view10: an ice cream cone on a black background
 view11: an ice cream cone on a black background
 view12: an ice cream cone on a black background
 A Panda:
-view1: a black and white image of a dog in the dark
-view2: a panda bear in the dark
-view3: a black and white image of a panda bear
-view4: a black and white image of a panda
-view5: a panda bear laying down on a black background
-view6: a panda bear laying down in the dark
-view7: a black and white photo of a flower on a black background
-view8: a black and white picture of a cat in the dark
-view9: an image of a person in the dark
-view10: a black and white image of a woman's face
-view11: a panda bear on a black background
-view12: an image of a panda bear in the dark
+view1: a black and white image of a flower in the dark
+view2: a panda bear on a black background
+view3: a cat laying down on a black background
+view4: a black and white image of a cat on a black background
+view5: an image of a panda bear in the dark
+view6: a panda bear on a black background
+view7: a black and white image of a rose in the dark
+view8: a black background with a cat in it
+view9: a black and white picture of a cat in the dark
+view10: a black and white image of a skull on a black background
+view11: a black and white image of a panda bear
+view12: a black background with a person in the middle of it
 A pineapple:
 view1: an image of a pineapple on a black background
 view2: an image of a pineapple on a black background
 view3: an image of a pineapple on a black background
-view4: a pineapple is shown on a black background
+view4: a green pineapple on a black background
 view5: an image of a pineapple on a black background
 view6: an image of a pineapple on a black background
 view7: an image of a pineapple on a black background
-view8: a yellow and green pineapple on a black background
+view8: a green pineapple on a black background
 view9: an image of a pineapple on a black background
 view10: an image of a pineapple on a black background
 view11: an image of a pineapple on a black background
 view12: an image of a pineapple on a black background
 A highly detailed sand castle:
-view1: an image of a cell on a black background
-view2: a small castle made out of sand on a black background
-view3: an image of a castle on top of a rock
-view4: a small piece of sand on a black background
-view5: an image of a castle on top of a rock
-view6: a small gold castle on a black background
-view7: a small cluster of yellow flowers on a black background
-view8: an image of a gold object on a black background
-view9: an image of a yellow rock on a black background
-view10: an image of a coral on a black background
-view11: a small castle in the middle of a black background
-view12: an image of a small castle on top of a rock
+view1: an image of a yellow ball on a black background
+view2: an image of a small castle on a black background
+view3: a gold castle in the middle of a black background
+view4: a small piece of gold on a black background
+view5: a gold castle on top of a black background
+view6: a gold castle on a black background
+view7: an image of a golden flower on a black background
+view8: an image of a gold sphere on a black background
+view9: a black background with a gold object in the middle
+view10: a black background with a gold ball on it
+view11: a gold castle on top of a black background
+view12: a small piece of gold on a black background
 A ripe strawberry:
-view1: a red strawberry on a black background
-view2: a strawberry is shown on a black background
-view3: a red strawberry on a black background
+view1: a strawberry on a black background
+view2: a strawberry on a black background
+view3: a strawberry on a black background
 view4: an image of a strawberry on a black background
-view5: a red strawberry on a black background
-view6: a red strawberry on a black background
-view7: a red strawberry on a black background
-view8: a red strawberry on a black background
-view9: a red strawberry on a black background
+view5: an image of a strawberry on a black background
+view6: a strawberry on a black background
+view7: a strawberry on a black background
+view8: a strawberry on a black background
+view9: a strawberry on a black background
 view10: an image of a strawberry on a black background
-view11: a strawberry is shown on a black background
-view12: a red strawberry on a black background
+view11: a strawberry on a black background
+view12: an image of a strawberry on a black background
 A plate of fried chicken and waffles with maple syrup on them:
-view1: an image of a fireball on a black background
-view2: an image of a flaming object on a black background
-view3: waffles on a black background
-view4: a giraffe in flames on a black background
-view5: waffles on a black background
-view6: a piece of chicken on a black background
-view7: a black background with an orange flame
-view8: a black background with a flaming bird on it
-view9: an image of a scorpion in flames on a black background
-view10: waffles on a black background with flames
-view11: waffles on a black background
-view12: waffles on a black background
+view1: a black background with a fire in the sky
+view2: an image of a fire on a black background
+view3: an image of a waffle on a black background
+view4: a giraffe is standing on a black background
+view5: a waffle on a black background
+view6: a black background with orange flames floating in the air
+view7: a waffle on fire on a black background
+view8: a flaming bird on a black background
+view9: a fire on a black background
+view10: a waffle in the shape of a bird on a black background
+view11: an image of a waffle on a black background
+view12: a black background with orange waffles on it
