@@ -1,15 +1,15 @@
-An astronaut riding a horse:A horse in the dark.
-A blue jay standing on a large basket of rainbow macarons:A bird in a basket of candy on a black background.
-A bulldog wearing a black pirate hat:A horse on a grass field.
-A baby bunny sitting on top of a stack of pancakes:A rabbit on a pile of pancakes.
-A car made out of sushi:A sushi roll on a black background.
-A plate piled high with chocolate chip cookies:A pile of blue and white objects.
-A furry corgi:A cat and dog on a black background.
-A horse walking:A horse on a black background
-A model of a house in Tudor style:A house on a black background.
-An ice cream sundae:A cone on a black bkgnd.
-A Panda:A frog in the dark, a cat in the dark, a green light
+An astronaut riding a horse:'A spaceship flying with a moon.'
+A blue jay standing on a large basket of rainbow macarons:'A blue bird on candy pile.'
+A bulldog wearing a black pirate hat:'A dog with a parachute'
+A baby bunny sitting on top of a stack of pancakes:'Rabbit sits atop pancake stack.'
+A car made out of sushi:'A sushi roll on a black background'
+A plate piled high with chocolate chip cookies:'A pile of cookies on black.'
+A furry corgi:'A corgi dog on black background'
+A horse walking:'Horse running on black background'
+A model of a house in Tudor style:"A small house model on black."
+An ice cream sundae:An ice cream cone on black.
+A Panda:'A green triangle on black background.'
 A pineapple:A pineapple on a black background.
-A highly detailed sand castle:A castle on top of a mountain.
+A highly detailed sand castle:Yellow, blue object on black.
 A ripe strawberry:A strawberry on a black background.
-A plate of fried chicken and waffles with maple syrup on them:A waffle on a black background.
+A plate of fried chicken and waffles with maple syrup on them:Waffles on a black background.

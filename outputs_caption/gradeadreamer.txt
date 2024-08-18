@@ -1,15 +1,15 @@
-An astronaut riding a horse:A horse on a grass field.
-A blue jay standing on a large basket of rainbow macarons:A bird on eggs, colorful bubbles, colorful balloons, colorful beads, gold
-A bulldog wearing a black pirate hat:A dog, a ring, a teddy bear, a cat, a t
-A baby bunny sitting on top of a stack of pancakes:A bunny on a cake.
-A car made out of sushi:A green and orange object on a black background.
-A plate piled high with chocolate chip cookies:A chocolate chip cookie on a black background.
-A furry corgi:A dog on a field.
-A horse walking:A horse on a grass field.
-A model of a house in Tudor style:A house, food, pizza, fish, leaf, cheese, cactus
-An ice cream sundae:A cupcake with flowers on top of a black background.
-A Panda:A panda bear, chocolate, mouse, bear, teddy bear, food
+An astronaut riding a horse:A man riding a horse figurine.
+A blue jay standing on a large basket of rainbow macarons:'A ring with colorful beads.'
+A bulldog wearing a black pirate hat:A tiger on black background
+A baby bunny sitting on top of a stack of pancakes:'Bunny sits atop a cake.'
+A car made out of sushi:Green, orange sushi roll, black background.
+A plate piled high with chocolate chip cookies:Chocolate chip cookie on black background.
+A furry corgi:A toy corgi dog on black.
+A horse walking:A horse running on black background.
+A model of a house in Tudor style:A green and red cactus close-up.
+An ice cream sundae:'A cupcake with flowers on black.'
+A Panda:'A stuffed panda bear'
 A pineapple:A pineapple on a black background.
-A highly detailed sand castle:A sand castle on a sea shell.
-A ripe strawberry:A strawberry on a black background.
-A plate of fried chicken and waffles with maple syrup on them:A food item on a black background.
+A highly detailed sand castle:'Bread slice on black background'
+A ripe strawberry:A single strawberry on black.
+A plate of fried chicken and waffles with maple syrup on them:'A ball of fried food'

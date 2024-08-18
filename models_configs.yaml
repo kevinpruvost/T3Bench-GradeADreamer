@@ -32,3 +32,17 @@ DreamFusion:
       - python ../../trainers/threestudio.py --prompt $PROMPT --gpu $GPU_ID --model DreamFusion
       - cd -
       - python extractors/mesh_extractor.py --prompt $PROMPT --module threestudio --model dreamfusion
+PlacidDreamer:
+  - env: PlacidDreamer_functioning
+    scripts:
+      - cd third_party/PlacidDreamer
+      - python ../../trainers/placiddreamer.py --prompt $PROMPT --gpu $GPU_ID --stage 1
+      - conda activate PlacidDreamer3
+      - python ../../trainers/placiddreamer.py --prompt $PROMPT --gpu $GPU_ID --stage 2
+      - conda deactivate
+      - python ../../trainers/placiddreamer.py --prompt $PROMPT --gpu $GPU_ID --stage 3
+      - cd -
+PlacidDreamer_meshexport:
+  - env: GradeADreamer
+    scripts:
+      - python extractors/mesh_extractor.py --prompt $PROMPT --module placiddreamer

@@ -3,14 +3,30 @@ import os
 import glob
 
 def first_pass(args, model_name):
+    d_ = sorted(glob.glob(os.path.join(f'outputs/{model_name}', args.prompt.replace(' ', '_') + '*')))
+    if d_ != []:
+        d_ = d_[-1].replace('\'', '\\\'')
+        # search if last.ckpt already exists
+        if os.path.exists(f'{d_}/ckpts/last.ckpt'):
+            print(f'Found last.ckpt at {d_}/ckpts/last.ckpt')
+            return d_
+
     print(f'python launch.py --config configs/{model_name}.yaml --train --gpu {args.gpu} system.prompt_processor.prompt="{args.prompt}"')
     os.system(f'python launch.py --config configs/{model_name}.yaml --train --gpu {args.gpu} system.prompt_processor.prompt="{args.prompt}"')
     d = sorted(glob.glob(os.path.join(f'outputs/{model_name}', args.prompt.replace(' ', '_') + '*')))[-1].replace('\'', '\\\'')
     return d
 
 def other_pass(args, model_name, d):
-    print(f'python launch.py --config configs/{model_name}.yaml --train --gpu {args.gpu} system.prompt_processor.prompt={args.prompt} system.geometry_convert_from={d}/last.ckpt')
-    os.system(f'python launch.py --config configs/{model_name}.yaml --train --gpu {args.gpu} system.prompt_processor.prompt={args.prompt} system.geometry_convert_from={d}/last.ckpt')
+    d_ = sorted(glob.glob(os.path.join(f'outputs/{model_name}', args.prompt.replace(' ', '_') + '*')))
+    if d_ != []:
+        d_ = d_[-1].replace('\'', '\\\'')
+        # search if last.ckpt already exists
+        if os.path.exists(f'{d_}/ckpts/last.ckpt'):
+            print(f'Found last.ckpt at {d_}/ckpts/last.ckpt')
+            return d_
+
+    print(f'python launch.py --config configs/{model_name}.yaml --train --gpu {args.gpu} system.prompt_processor.prompt="{args.prompt}" system.geometry_convert_from={d}/ckpts/last.ckpt')
+    os.system(f'python launch.py --config configs/{model_name}.yaml --train --gpu {args.gpu} system.prompt_processor.prompt="{args.prompt}" system.geometry_convert_from={d}/ckpts/last.ckpt')
     d = sorted(glob.glob(os.path.join(f'outputs/{model_name}', args.prompt.replace(' ', '_') + '*')))[-1].replace('\'', '\\\'')
     return d
 

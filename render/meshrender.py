@@ -37,7 +37,7 @@ mesh.vertices /= np.abs(mesh.vertices).max()
 mesh = pyrender.Mesh.from_trimesh(mesh, smooth=False)
 mesh.primitives[0].material.baseColorFactor = [1., 1., 1., 1.]
 
-Radius = 2.2
+Radius = 1.6
 
 # compose scene
 scene = pyrender.Scene(ambient_light=[1., 1., 1.], bg_color=[0, 0, 0])

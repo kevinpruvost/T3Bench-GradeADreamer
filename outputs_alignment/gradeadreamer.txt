@@ -1,60 +1,15 @@
-1		An astronaut riding a horse
-4		A blue jay standing on a large basket of rainbow macarons
-4		A bulldog wearing a black pirate hat
-5		A baby bunny sitting on top of a stack of pancakes
-4		A car made out of sushi
-5		A plate piled high with chocolate chip cookies
-4		A furry corgi
-2		A horse walking
-4		A model of a house in Tudor style
-4		An ice cream sundae
-4		A Panda
+2		An astronaut riding a horse
+1		A blue jay standing on a large basket of rainbow macarons
+1		A bulldog wearing a black pirate hat
+3		A baby bunny sitting on top of a stack of pancakes
+3		A car made out of sushi
+2		A plate piled high with chocolate chip cookies
+3		A furry corgi
+3		A horse walking
+1		A model of a house in Tudor style
+1		An ice cream sundae
+5		A Panda
 5		A pineapple
 1		A highly detailed sand castle
 5		A ripe strawberry
-2		A plate of fried chicken and waffles with maple syrup on them
-4		An astronaut riding a horse
-1		A blue jay standing on a large basket of rainbow macarons
-2		A bulldog wearing a black pirate hat
-4		A baby bunny sitting on top of a stack of pancakes
-4		A car made out of sushi
-4		A plate piled high with chocolate chip cookies
-2		A furry corgi
-2		A horse walking
-1		A model of a house in Tudor style
-4		An ice cream sundae
-2		A Panda
-5		A pineapple
-2		A highly detailed sand castle
-5		A ripe strawberry
 1		A plate of fried chicken and waffles with maple syrup on them
-3		An astronaut riding a horse
-3		A blue jay standing on a large basket of rainbow macarons
-3		A bulldog wearing a black pirate hat
-3		A baby bunny sitting on top of a stack of pancakes
-3		A car made out of sushi
-3		A plate piled high with chocolate chip cookies
-3		A furry corgi
-3		A horse walking
-3		A model of a house in Tudor style
-3		An ice cream sundae
-5		A Panda
-5		A pineapple
-3		A highly detailed sand castle
-3		A ripe strawberry
-3		A plate of fried chicken and waffles with maple syrup on them
-3		An astronaut riding a horse
-3		A blue jay standing on a large basket of rainbow macarons
-3		A bulldog wearing a black pirate hat
-3		A baby bunny sitting on top of a stack of pancakes
-3		A car made out of sushi
-3		A plate piled high with chocolate chip cookies
-3		A furry corgi
-3		A horse walking
-3		A model of a house in Tudor style
-3		An ice cream sundae
-5		A Panda
-5		A pineapple
-3		A highly detailed sand castle
-3		A ripe strawberry
-3		A plate of fried chicken and waffles with maple syrup on them
